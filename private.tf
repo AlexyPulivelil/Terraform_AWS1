@@ -1,6 +1,6 @@
 resource "aws_security_group" "db" {
     name = "vpc_db"
-    description = "Allow incoming database connections."
+    description = "Allow incoming database connection."
 
     ingress {
         from_port = 1433
