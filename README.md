@@ -1,6 +1,22 @@
 
 # Deploying Cloud Architecture in AWS with Terraform
 
+
+I deployed a cloud architecture in the AWS Cloud. 
+The main services I used was :-
+EC2
+VPC
+RDS
+Subnet
+Internet Gateway
+Bastion Host
+Route Tables
+Nat Gateway
+
+All these implementation was done with terraform code.
+
+
+
 ## Terraform Code to :
 
 * Create a VPC in which there are two subnets one public and one private
